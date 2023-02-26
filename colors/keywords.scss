@@ -1,0 +1,40 @@
+$ColorKeyWords: (
+    /* Yellows */ 
+    "yellow": "#FFF200",
+    "mellow": "#F8DE7E",
+    "cyder": "#FFD300",
+    "royal": "#FADASE",
+    "banana": "#FCF4A3",
+    "tuscany": "#FCD12A",
+    "lemon": "#EFFDSF",
+    "bumblebee": "#FCE205",
+    "cream": "#FFFDD0",
+    "peach": "#FFF5B4",
+    "laguna": "#F8E473",
+    "mustard": "#FEDC56",
+    "corn": "#E4CD05",
+    "pineapple": "#FEE12B",
+    "flaxen": "#D5B85A",
+    "egg-nog": "#F9E29C",
+    "trombone": "#D2B55B",
+    "flax": "#EEDC82",
+    "ecru": "#CEB180",
+    "sepia": "#E3B778",
+    /*Oranges */ 
+    "orange": "#FC6600",
+    "gold": "#F9A602",
+    "goldenrod": "#DBA520",
+    "pumpkin": "#FF7117",
+    "fire": "#FDA50F",
+    "oche": "#CC7722",
+    "burnt-oil": "#964000",
+    "duon": "#C49102"
+);
+
+:root {
+    --colors: inspect($ColorKeyWords);
+}
+
+:export {
+    colors: var(--colors)
+}
